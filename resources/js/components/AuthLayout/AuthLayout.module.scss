@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  .logoSection {
+    display: flex;
+    align-items: center;
+    flex: .3;
+
+    & img {
+      height: 82px;
+    }
+  }
+  
+  .content {
+    display: flex;
+    align-items: flex-start;
+    flex: .7;
+  }
+}
